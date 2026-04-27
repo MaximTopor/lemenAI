@@ -162,11 +162,11 @@ print(f"Validation accuracy: {val_acc:.4f}")
 class_names = list(train_generator.class_indices.keys())
 print("\nTriedy:", class_names)
 
-# 0 -
-# 1 -
-# 2 -
-# 3 -
-# 4 -
+# 0 - cool
+# 1 - norm
+# 2 - bad
+# 3 - very bad
+
 
 images_to_check = [
     "test_images/test_0018.jpg",
